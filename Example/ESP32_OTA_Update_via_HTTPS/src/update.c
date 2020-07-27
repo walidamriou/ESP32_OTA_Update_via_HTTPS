@@ -143,7 +143,6 @@ void update(){
 			.url = file->valuestring,
 			.cert_pem = cert,
 	    };
-        printf("I am here !");
         esp_err_t ret = esp_https_ota(&ota_client_config);
         if (ret == ESP_OK) {
             printf(" download and installation of the new firmware is done");
