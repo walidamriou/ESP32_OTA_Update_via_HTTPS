@@ -16,13 +16,13 @@ void app_main() {
     wifi_connect();
     printf("Connected to wifi network\n");
 
-    printf("Firmware 1\n");
+    printf("Firmware 2\n");
 
     int a = check_updates();
     if(a==1){
         update();
     }
-    printf("Firmware 1\n");
+    printf("Firmware 2\n");
 
     
 }
