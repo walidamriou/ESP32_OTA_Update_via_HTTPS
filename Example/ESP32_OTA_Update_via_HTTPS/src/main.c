@@ -22,6 +22,7 @@ void app_main() {
     if(a==1){
         update();
     }
+    printf("Firmware 1\n");
 
     
 }
