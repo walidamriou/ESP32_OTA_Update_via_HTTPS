@@ -34,7 +34,7 @@ you can see this edit in the example.
       if(a==1){    
         update();  
       }  
-   - you can play with the last functions, example you can call it when click button or a event happen, but with the same order.   
+   - you can play with the last functions. For example, you can call it when a click button or an event happens, but with the same order.   
    
 ### Website
 https://www.walidamriou.com
