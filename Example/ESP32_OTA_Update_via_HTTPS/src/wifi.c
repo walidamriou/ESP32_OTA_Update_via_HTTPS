@@ -81,14 +81,12 @@ esp_err_t event_handler(void * ctx, system_event_t * event) {
         ESP_ERROR_CHECK() is not equal ESP_OK, then an error message is printed 
         on the console, and abort() is called.
         */
-       printf("1................................\n");
        flag_wifi_init=true;
        esp_err_t err = esp_wifi_connect();
        while (err == ESP_ERR_WIFI_SSID)
        {
            err = esp_wifi_connect();
        }
-       printf("11111................................\n");
 
     }
 
